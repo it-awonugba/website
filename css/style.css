@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #0073e6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.time-info {
+  text-align: right;
+}
+
+.time-info p {
+  margin: 5px 0;
+}
+
+.goals {
+  padding: 20px 0;
+}
+
+.goals h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer nav ul li {
+  margin: 10px 15px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-info {
+    margin-bottom: 20px;
+  }
+
+  .time-info {
+    text-align: left;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+  }
+
+  footer nav ul li {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .profile-info h2 {
+    font-size: 1.25rem;
+  }
+}

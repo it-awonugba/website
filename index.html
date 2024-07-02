@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>My Tech Goals for the Next 2 Years</h1>
+      </div>
+    </header>
+    <main class="container">
+      <section class="profile">
+        <div class="profile-info">
+          <img
+            src="images/slack-profile-image512x512.jpeg"
+            alt="Slack Profile Picture"
+            data-testid="slackProfilePicture"
+          />
+          <div>
+            <h2 data-testid="slackDisplayName">Isaac Awonugba</h2>
+            <p data-testid="slackEmail">it.awonugba@gmail.com</p>
+          </div>
+        </div>
+        <div class="time-info">
+          <p>
+            Current UTC Time:
+            <span id="utcTime" data-testid="currentTimeUTC"></span>
+          </p>
+          <p>
+            Current Day: <span id="currentDay" data-testid="currentDay"></span>
+          </p>
+        </div>
+      </section>
+      <section class="goals">
+        <h2>Goals</h2>
+        <p>
+         My tech goals for the next two years:
+         <ul>
+            <li>Learning and improving my Frontend skills</li>
+            <li>Work on exciting projects</li>
+            <li>Contribute to open source</li>
+            <li>Learn new programming languages for backend</li>
+         </ul>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://hng.tech/learn" data-testid="hngLink"
+                >HNG Tech Learn</a
+              >
+            </li>
+            <li>
+              <a href="https://keyword.dog" data-testid="keywordLink"
+                >Keyword Dog</a
+              >
+            </li>
+            <li>
+              <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+                >Scrape Any Web</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
